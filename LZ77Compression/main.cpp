@@ -1,4 +1,5 @@
 #include "mainwindow.h"
+#include "LZ77Compression/LZ77Compression.h"
 
 #include <QApplication>
 

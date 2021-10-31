@@ -15,6 +15,11 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_compressButton_clicked();
+
+    void on_decompressButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
